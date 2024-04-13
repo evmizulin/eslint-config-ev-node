@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ev-node",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha.1",
   "main": "index.js",
   "scripts": {
     "release": "./release.sh"
@@ -22,7 +22,13 @@
     "typescript": "^5.0.4"
   },
   "engines": {
-      "node": "^16.17.1"
+    "node": "^16.17.1"
   },
-  "keywords": ["eslint", "eslint-config", "prettier", "typescript", "nodejs"]
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "prettier",
+    "typescript",
+    "nodejs"
+  ]
 }
