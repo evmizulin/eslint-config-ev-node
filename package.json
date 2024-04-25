@@ -10,7 +10,8 @@
     "eslint.config.js",
     "ts.config.json",
     "jest.config.js",
-    "prettier.config.json"
+    "prettier.config.json",
+    "setup.sh"
   ],
   "dependencies": {
     "@jest/globals": "^29.7.0",
