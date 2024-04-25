@@ -1,6 +1,7 @@
 {
-  "name": "ev-nodejs-config",
-  "version": "0.1.0-alpha.9",
+  "name": "eslint-config-ev-node",
+  "version": "0.0.0",
+  "main": "eslint.config.js",
   "scripts": {
     "release": "./release.sh"
   },

@@ -1,17 +1,17 @@
 #!/bin/bash
 
-mkdir src build &&
+mkdir -p src build &&
 
 echo '{
-  "extends": "ev-nodejs-config/ts.config.json"
+  "extends": "eslint-config-ev-node/ts.config.json"
 }' > tsconfig.json &&
 
-echo 'module.exports = require("ev-nodejs-config/jest.config.js");' > jest.config.js &&
+echo 'module.exports = require("eslint-config-ev-node/jest.config.js");' > jest.config.js &&
 
-echo '"ev-nodejs-config/prettier.config.json"' > .prettierrc &&
+echo '"eslint-config-ev-node/prettier.config.json"' > .prettierrc &&
 
 echo '{
-  "extends": "ev-nodejs-config/eslint.config.js"
+  "extends": "ev-node"
 }' > .eslintrc.json &&
 
 npm pkg set scripts.test="jest ./src" &&
