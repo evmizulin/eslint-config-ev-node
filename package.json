@@ -8,9 +8,11 @@
   "author": "Evgeny Mizulin",
   "license": "ISC",
   "files": [
-    "index.js"
+    "index.js",
+    "tsconfig.json"
   ],
   "dependencies": {
+    "@tsconfig/node16": "^16.1.3",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "eslint": "^8.57.0",
@@ -22,13 +24,14 @@
     "typescript": "^5.0.4"
   },
   "engines": {
-    "node": "^16.17.1"
+    "node": "^16.0.0"
   },
   "keywords": [
     "eslint",
     "eslint-config",
     "prettier",
     "typescript",
-    "nodejs"
+    "nodejs",
+    "typescript-config"
   ]
 }
