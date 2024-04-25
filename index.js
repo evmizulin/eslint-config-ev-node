@@ -32,5 +32,6 @@ module.exports = {
         patterns: ["src/*"],
       },
     ],
+    "@typescript-eslint/no-non-null-assertion": 0,
   },
 };
