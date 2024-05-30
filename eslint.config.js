@@ -31,5 +31,8 @@ module.exports = {
       },
     ],
     "@typescript-eslint/no-non-null-assertion": 0,
+    "@typescript-eslint/no-empty-function": "off",
+    "object-shorthand": ["error", "always"],
+    "arrow-body-style": ["error", "as-needed"],
   },
 };
