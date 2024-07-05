@@ -34,5 +34,7 @@ module.exports = {
     "@typescript-eslint/no-empty-function": "off",
     "object-shorthand": ["error", "always"],
     "arrow-body-style": ["error", "as-needed"],
+    "no-empty": "off",
+    "no-empty-pattern": "off",
   },
 };
