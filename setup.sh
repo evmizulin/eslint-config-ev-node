@@ -15,4 +15,5 @@ echo '{
 }' > .eslintrc.json &&
 
 npm pkg set scripts.test="jest ./src" &&
+npm pkg set scripts.test-debug="node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand ./src" &&
 npm pkg set scripts.build="rm -rf build && tsc -p tsconfig.json"
