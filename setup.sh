@@ -2,7 +2,7 @@
 
 mkdir -p src build &&
 
-echo "console.log('Hello world');" > src/index.js &&
+echo "console.log('Hello world');" > src/index.ts &&
 
 echo '{
   "extends": "eslint-config-ev-node/ts.config.json"
