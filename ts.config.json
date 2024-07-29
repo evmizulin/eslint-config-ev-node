@@ -3,6 +3,7 @@
   "compilerOptions": {
     "outDir": "../../build",
     "baseUrl": "./src",
-    "noUncheckedIndexedAccess": true
+    "noUncheckedIndexedAccess": true,
+    "declaration": true
   }
 }
